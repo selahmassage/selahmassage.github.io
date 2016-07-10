@@ -1,7 +1,0 @@
-{
-  "name": "selahmassage-github-io",
-  "short_name": "selahmassage-github-io",
-  "description": "Website for info about STMC",
-  "start_url": "/",
-  "display": "standalone"
-}
