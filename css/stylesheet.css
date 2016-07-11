@@ -1,0 +1,48 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab';
+
+html, body	{
+	background-color: #F5F5F5;
+	font-family: "Roboto", serif;
+}
+
+.nav	{
+	width: 100%;
+	color: #F5F5F5;
+	background: rgba(0,0,0,0.7);
+	z-index: 100;
+/*	position: fixed; .navback is for padding, though I couldn't quite get it to pad right anyway.*/	
+
+}
+
+#title, #links	{
+	padding-top: 10px;		
+	padding-bottom: 10px;
+
+}
+
+#title	{	
+	font-size: 32px;
+}
+
+#links, a:link , a:visited	{				
+	color: #F5F5F5;
+}		
+
+/*	.navback	{
+	width: 100%;
+	color: #F5F5F5;
+	background: #F5F5F5;
+	padding: 0px;
+	position: relative;
+}	*/
+
+.jumbotron	{
+	background-image: url("../res/jumbotron-img.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	color: #FFFFFF;
+	font-family: "Roboto Slab", serif;
+
+}
