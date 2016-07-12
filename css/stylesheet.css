@@ -10,8 +10,6 @@ html, body	{
 	color: #F5F5F5;
 	background: rgba(0,0,0,0.7);
 	z-index: 100;
-/*	position: fixed; .navback is for padding, though I couldn't quite get it to pad right anyway.*/	
-
 }
 
 #title, #links	{
@@ -28,14 +26,6 @@ html, body	{
 	color: #F5F5F5;
 }		
 
-/*	.navback	{
-	width: 100%;
-	color: #F5F5F5;
-	background: #F5F5F5;
-	padding: 0px;
-	position: relative;
-}	*/
-
 .jumbotron	{
 	background-image: url("../res/jumbotron-img.png");
 	background-position: top center;
@@ -45,4 +35,29 @@ html, body	{
 	color: #FFFFFF;
 	font-family: "Roboto Slab", serif;
 
+}
+
+.content	{
+	background-color: #F5F5F5;
+	padding-bottom: 50px;
+	color: #212121;
+	
+}
+
+#map	{
+	width: 100%;
+	height: 100%;
+}
+
+.footer	{
+	width: 100%;
+	height: 100px;
+	background-color: #F5F5F5;
+	line-height: 100px;
+	color: #212121;
+
+}
+
+.footer, ul, iframe	{
+	vertical-align: middle;
 }
