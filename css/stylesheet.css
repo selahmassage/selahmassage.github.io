@@ -60,4 +60,6 @@ html, body	{
 
 .footer, ul, iframe	{
 	vertical-align: middle;
+	color: #212121;
+
 }
